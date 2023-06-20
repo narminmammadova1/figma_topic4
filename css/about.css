@@ -41,8 +41,7 @@
     color: var(--black);
     font-style: normal;}
     
-    .nav_header li:first-child a{color: #1090CB;
-    vertical-align: top;}
+    
     
     .button_header{padding: 10px 27px;
         background-color: #1090CB ;
@@ -59,6 +58,21 @@
          .button_header button{background-color: #1090CB;
         color: #fff;
         border: none;}
+
+
+        .nav_header li:nth-child(2) a{color: #1090CB;
+            vertical-align: top;
+            top: 38px;
+            left: 938px;}
+            
+            
+            .nav_header li:nth-child(2) a::before{content: "";
+            display: block;
+            background-color: #08D3BB;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            }
 
     /* main start */
 

@@ -48,6 +48,15 @@ top: 38px;
 left: 938px;}
 
 
+.nav_header li:first-child a::before{content: "";
+display: block;
+background-color: #08D3BB;
+width: 8px;
+height: 8px;
+border-radius: 50%;
+}
+
+
 
 
 .button_header{padding: 10px 27px;
